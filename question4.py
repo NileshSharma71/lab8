@@ -1,10 +1,22 @@
 m=int(input("Enter: "))
 n=int(input("Enter: "))
 a=[]
-for i in range(n):
-    for j in range(m):
-        n=int(input("Enter the value: "))
-        a.append(n)
+c=0
+while True:
+    c+=1
+    a.append((input("enter the value: ")).split())
+    if c==m:
+        break
+    
+print("First matrix: ",a)
+b=[]
+c1=0
+while True:
+    c1+=1
+    b.append((input("enter the value: ")).split())
+    if c1==m:
+        break
+print("second matrix: ",b)
 for i in a:
-    if m==n:
-        b=[a[m*(i)]]
+    for j in b:
+        pass
